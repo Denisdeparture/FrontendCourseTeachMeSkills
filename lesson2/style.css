@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    padding: 15px;
+}
+h2, p{
+    color: white;
+}
+.main-title__text {
+    margin: auto;
+    margin-bottom: 5%;
+    max-width: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.card-block{
+    margin: auto;
+    max-width: 30%;
+    border: solid;
+    border-color: antiquewhite;
+    padding:1%;
+    overflow: hidden;
+}
+.card-block__title{
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+    border: solid;
+    text-align: center;
+}
+.card-block__img {
+    margin: auto;
+    max-width: 26em;
+    border: solid;
+    border-color: white;
+    border-radius: 150%;
+    overflow: hidden;
+    margin-bottom: 15%;
+}
+.card-block__img img{
+    margin-left: -100px ;
+}
+.card-block__description{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
